@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'playfair';
+       src: url('PlayfairDisplay.otf');
+}
+
+body {
+    background-color: rgba(99, 66, 14, 0.636);
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    font-family: 'playfair', 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+h1 {
+    font-size: 2rem;
+}
+h3 {
+    font-family: 'playfair', 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+p, main, section {
+    text-align: justify;
+    font-size: 1rem;;
+}
+
+em {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+em > .little {
+    font-size: x-small;
+}
+.contact {
+    text-decoration: none;
+    color: rgba(101, 53, 4, 0.997);
+}
+
+.center {
+    text-align: center;
+}
+
+.center p {
+    text-align: center;
+}
+
+
+.page {
+    text-decoration: none;
+    color:rgba(101, 53, 4, 0.997);
+    font-style: italic;
+}
+
+.bottom {
+    padding-top: 3rem;
+}
+.float {
+    float: right;
+    padding: 20px;
+}
+
+.navbar {
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items:center;
+    font-size: 1rem;
+
+}
+
+.navbar > li > a, .article > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar > li > a:hover, .article > li >a:hover {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.family {
+    float: right;
+    width: 30%;
+    max-width: 500px;
+    border-radius: 25%;
+    padding: 2em
+}
+
+.nurses, .morad, .museumphoto {
+    justify-content: center;
+    width: 98%;
+    padding: 1%;
+    border-radius: 12%;
+}
+
+footer p {
+    font-size: 0.7rem;
+}
+
+
